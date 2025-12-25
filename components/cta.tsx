@@ -47,8 +47,8 @@ export function CTA() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div>
+          <div className="flex flex-col lg:flex-row gap-12">
+            {/* <div className="flex-1">
               <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
@@ -91,9 +91,9 @@ export function CTA() {
                   Send Message
                 </Button>
               </form>
-            </div>
+            </div> */}
 
-            <div className="space-y-6">
+            <div className="flex-1 space-y-6 text-center">
               <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
 
               <Card className="p-6">
@@ -117,7 +117,7 @@ export function CTA() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Email Us</h4>
-                    <p className="text-muted-foreground">info@nextinfotec.com</p>
+                    <p className="text-muted-foreground">support@nextinfotec.com</p>
                   </div>
                 </div>
               </Card>
@@ -129,7 +129,7 @@ export function CTA() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Call Us</h4>
-                    <p className="text-muted-foreground">+91 XXX XXX XXXX</p>
+                    <p className="text-muted-foreground">+91 8087596968</p>
                   </div>
                 </div>
               </Card>

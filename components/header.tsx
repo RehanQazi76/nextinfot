@@ -33,7 +33,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center">
-            <span className="text-xl md:text-2xl font-bold text-foreground">
+            <span className="text-3xl md:text-4xl font-bold text-foreground">
               Next<span className="text-accent">infotec</span>
             </span>
           </div>
@@ -41,25 +41,25 @@ export function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection("solution")}
-              className="text-sm font-medium text-foreground hover:text-accent transition-colors"
+              className="text-md font-medium text-foreground hover:text-accent transition-colors"
             >
               Solution
             </button>
             <button
               onClick={() => scrollToSection("services")}
-              className="text-sm font-medium text-foreground hover:text-accent transition-colors"
+              className="text-md font-medium text-foreground hover:text-accent transition-colors"
             >
               Services
             </button>
             <button
               onClick={() => scrollToSection("benefits")}
-              className="text-sm font-medium text-foreground hover:text-accent transition-colors"
+              className="text-md font-medium text-foreground hover:text-accent transition-colors"
             >
               Benefits
             </button>
             <button
               onClick={() => scrollToSection("how-it-works")}
-              className="text-sm font-medium text-foreground hover:text-accent transition-colors"
+              className="text-md font-medium text-foreground hover:text-accent transition-colors"
             >
               How It Works
             </button>
@@ -67,7 +67,7 @@ export function Header() {
               onClick={() => scrollToSection("contact")}
               className="bg-accent hover:bg-accent/90 text-accent-foreground"
             >
-              Get Started
+              Get In Touch
             </Button>
           </nav>
 
@@ -81,25 +81,25 @@ export function Header() {
             <nav className="flex flex-col gap-4">
               <button
                 onClick={() => scrollToSection("solution")}
-                className="text-sm font-medium text-foreground hover:text-accent transition-colors text-left"
+                className="text-md font-medium text-foreground hover:text-accent transition-colors text-left"
               >
                 Solution
               </button>
               <button
                 onClick={() => scrollToSection("services")}
-                className="text-sm font-medium text-foreground hover:text-accent transition-colors text-left"
+                className="text-md font-medium text-foreground hover:text-accent transition-colors text-left"
               >
                 Services
               </button>
               <button
                 onClick={() => scrollToSection("benefits")}
-                className="text-sm font-medium text-foreground hover:text-accent transition-colors text-left"
+                className="text-md font-medium text-foreground hover:text-accent transition-colors text-left"
               >
                 Benefits
               </button>
               <button
                 onClick={() => scrollToSection("how-it-works")}
-                className="text-sm font-medium text-foreground hover:text-accent transition-colors text-left"
+                className="text-md font-medium text-foreground hover:text-accent transition-colors text-left"
               >
                 How It Works
               </button>
